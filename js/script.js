@@ -1,7 +1,4 @@
-// Step 2 of 6
-// Callback Functions & Events
-
-// KEYDOWN EVENTS
+// Keydown Events
 var body = document.querySelector("body");
 
 document.addEventListener("keydown", function (e) {
@@ -13,9 +10,9 @@ document.addEventListener("keydown", function (e) {
             body.classList.remove("light");
         }
     }
-})
+});
 
-// CHANGE EVENTS
+// Change Events
 var favorite = document.querySelector("#favorite");
 var h1 = document.querySelector("h1");
 var selection = "regular";
@@ -25,9 +22,9 @@ favorite.addEventListener("change", function (e) {
     selection = e.target.value;
     if (selection === "stealth") {
         h1.innerText = "Stealth Quincy";
-    } else if (selection === "party"){  
+    } else if (selection === "party") {
         h1.innerText = "Party Quincy";
     } else {
         h1.innerText = "Quincy";
     }
-})
+});

@@ -30,7 +30,7 @@
 
 ## About The Project
 
-This is a webpage project that demonstrates the use of:
+This is a webpage project that implements:
 
 -   Callback Functions
 -   Keydown Events
@@ -38,8 +38,12 @@ This is a webpage project that demonstrates the use of:
 
 The script allows you to choose between a dark or light theme using only your keyboard. It also updates the title of the card with a dropdown menu selection.
 
-![dark mode](screenshots/screenshot1.png "dark mode")
-![light mode](screenshots/screenshot2.png "light mode")
+<div align="center">
+
+![screenshot1](screenshots/screenshot1.png "before")
+![screenshot2](screenshots/screenshot2.png "after")
+
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -55,7 +59,7 @@ The script allows you to choose between a dark or light theme using only your ke
 
 ## Getting Started
 
-This webpage was crafted with vanilla code. No dependencies here!
+This web page was crafted with vanilla code. No dependencies here!
 
 ### Prerequisites
 
@@ -71,8 +75,9 @@ All you need is a browser (to view/interact) and a text editor (to modify).
 
 ## Usage
 
--   Add new images to the `img` directory.
--   Modify `css/styles.css` to customize the themes to your liking.
+-   `index.html`: structure and layout.
+-   `styles.css`: design and aesthetics.
+-   `script.js`: functionality.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
